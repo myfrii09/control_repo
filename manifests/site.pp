@@ -5,3 +5,6 @@ node default {
     owner   => 'root',
   }
 }
+node 's01.myfri09.lan' {
+  include role::master_server
+}
